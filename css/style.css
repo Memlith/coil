@@ -1,0 +1,128 @@
+
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    background-image: url("/img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+    margin-bottom: 130px;
+}
+
+#container {
+    margin: 20px auto;
+    width: 85%;
+   
+}
+
+#header,
+#nav,
+#content,
+#footer {
+    background-color: rgb(20, 20, 20);
+    float: left;
+    width: 100%;
+}
+
+#header,
+#nav,
+#content {
+    margin-bottom: 0.5%;
+}
+
+
+#header {
+    height: 125px;
+    text-align: center;
+    line-height: 65px;
+}
+
+#nav {
+    background-color: rgb(35, 35, 35);
+    text-align: center;
+}
+
+#content {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#footer {
+    background-color: rgb(35, 35, 35);
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    height: 130px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    line-height: 10px;
+}
+
+#footerdiv {
+    padding-left: 5%;
+}
+
+[id*=png] {
+    height: 50px;
+}
+
+.ativo {
+    background-color: rgb(50, 50, 50);
+}
+
+li {
+    float: left;
+    color: white;
+    height: 100%;
+    width: 10%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(20, 20, 20);
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+
+}
+
+li:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+
+[id*=bnd] {
+    margin: auto;
+    width: 80%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+[id*=jpg]{
+    margin: auto;
+    height: 500px;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    li {
+        width: 20%;
+    }
+    [id*=jpg]{
+        height: 300px;
+    }
+}
